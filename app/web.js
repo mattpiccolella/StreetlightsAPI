@@ -8,7 +8,7 @@ var access_logfile = fs.createWriteStream('./access.log', {flags: 'a'});
 app.use(morgan('combined', { stream: access_logfile }));
     
 app.get('/', function(req, res) {
-    res.send('This is the backend API for the Streetlights app!');
+    res.send('This is the backend API for the Streetlights app. It will be used by the iOS application and other mobile clients.');
 });
 
 var server = app.listen(process.env.PORT || 5679, function() {
