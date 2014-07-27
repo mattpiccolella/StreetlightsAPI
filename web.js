@@ -11,6 +11,6 @@ app.get('/', function(req, res) {
     res.send('This is the backend API for the Flare app.');
 });
 
-var server = app.listen(process.env.PORT || 5678, function() {
+var server = app.listen(process.env.PORT || 5679, function() {
     console.log('Listening on port %d', server.address().port);
 });
