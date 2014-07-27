@@ -1,0 +1,27 @@
+{
+  "name": "FlareAPI",
+  "version": "0.0.0",
+  "description": "The API for the Flare iOS application",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mjp2220/FlareAPI.git"
+  },
+  "author": "Matt Piccolella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjp2220/FlareAPI/issues"
+  },
+  "homepage": "https://github.com/mjp2220/FlareAPI",
+  "dependencies": {
+    "express": "^4.7.1",
+    "forever": "^0.11.1",
+    "logfmt": "^1.1.2"
+  },
+  "engines": {
+    "node": "0.11.x"
+  }
+}
