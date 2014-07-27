@@ -1,25 +1,26 @@
 {
-  "name": "FlareAPI",
+  "name": "StreetlightsAPI",
   "version": "0.0.0",
-  "description": "The API for the Flare iOS application",
+  "description": "The API for the Streetlights iOS application",
   "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mjp2220/FlareAPI.git"
+    "url": "https://github.com/mjp2220/StreetlightsAPI.git"
   },
   "author": "Matt Piccolella",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mjp2220/FlareAPI/issues"
+    "url": "https://github.com/mjp2220/StreetlightsAPI/issues"
   },
-  "homepage": "https://github.com/mjp2220/FlareAPI",
+  "homepage": "https://github.com/mjp2220/StreetlightsAPI",
   "dependencies": {
     "express": "^4.7.1",
     "forever": "^0.11.1",
-    "logfmt": "^1.1.2"
+    "logfmt": "^1.1.2",
+    "morgan": "^1.2.1"
   },
   "engines": {
     "node": "0.11.x"
