@@ -9,6 +9,8 @@ Application created by Matthew Piccolella and Sahir Jaggi.
 First, make sure you have the most recent versions of Vagrant and Virtualbox installed. Then:
 
 ``` bash
+  $ git clone https://github.com/mjp2220/StreetlightsAPI.git
+  $ cd StreetlightsAPI
   $ vagrant up
   $ vagrant ssh
   $ deployment/install.sh
